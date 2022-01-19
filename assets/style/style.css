@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, .container{
+    height: 100%;
+}
+
+header{
+    overflow: auto;
+    padding: 15px 0;
+}
+
+.header-night{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.header-day{
+    background-color: #133a66;
+    color: black;
+}
+
+header p{
+    padding-left: 20px;
+    font-size: 40pt;
+    float: left;
+}
+
+nav{  
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+nav a{
+    font-size: 15pt;
+    margin-right: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.navA-night{
+    background-color: #25254e;
+    color: white;
+    border: 2px solid #20202c;
+}
+
+.navA-day{
+    background-color: #a6e6ff;
+    color: black;
+    border: 2px solid #adadf8;;
+}
+
+.navA-night:hover{
+    background-color: #20202c;
+}
+
+.navA-day:hover{
+    background-color: #b1b5ea;
+}
+
+main { 
+    overflow: auto;
+    height: calc(100% - 130.8px);
+    width: 100%;
+}
+
+.main-night{
+    background: linear-gradient(to bottom, #020111 60%,#20202c 100%);
+}
+
+.main-day{
+    background: linear-gradient(to bottom, #154277 0%,#576e71 30%,#e1c45e 70%,#b26339 100%);
+}
+
+main p{
+    margin-top: 6.5%;
+    font-size: 60pt;
+    text-align: center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+}
+
+.mainP-night{
+    color: rgb(17, 158, 111);
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+.mainP-day{
+    color: #ff9900;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px  #ff9900,
+        0 0 82px  #ff9900,
+        0 0 92px  #ff9900,
+        0 0 102px #ff9900,
+        0 0 151px #ff9900;
+}
+
+.info{
+    margin: 7% auto 0 auto;
+    padding: 10px 5px;
+    width: 40%;
+    text-align: center;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.info-night{
+    border: 4px solid #20202c;
+    background-color: #0fa;
+}
+
+.info-day{
+    border: 4px solid #999dd6;
+    background-color: #b4eaff;
+}
+
+footer{
+    height: 40px;
+}
+
+footer p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer-night{
+    color: white;
+    background-color: black;
+}
+
+.footer-day{
+    color: black;
+    background-color: #133a66;
+}
